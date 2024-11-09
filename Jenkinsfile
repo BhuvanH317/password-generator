@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('dockerhub-credentials')
-        DOCKER_IMAGE = "bhuvanh317/react-jenkins-docker-k8s"
+        DOCKER_IMAGE = "bhuvanh317/password-generator"
     }
     stages {
         stage('Checkout') {
